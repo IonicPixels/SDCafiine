@@ -19,3 +19,11 @@ RUN mkdir SDCafiine
 WORKDIR /SDCafiine
 
 COPY . .
+
+# Not running the below until I figure out how to CMAKE
+
+#RUN mkdir build
+
+#WORKDIR /SDCafiine/build
+
+#RUN cmake -DCMAKE_TOOLCHAIN_FILE=$DEVKITPRO/wut/share/wut.toolchain.cmake ../
