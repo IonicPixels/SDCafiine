@@ -120,6 +120,7 @@ export INCLUDE	:=	$(foreach dir,$(INCLUDES),-I$(CURDIR)/$(dir)) \
                     -I$(PORTLIBS)/include -I$(PORTLIBS)/include/freetype2 \
 					-I$(CURDIR)/$(BUILD) \
 					-I$(PORTLIBS)/include/libutils  -I$(PORTLIBS)/include/libfswrapper  \
+					-I$(PORTLIBS)/include/libutils/fs
 					
 
 #---------------------------------------------------------------------------------
